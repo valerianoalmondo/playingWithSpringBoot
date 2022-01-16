@@ -72,6 +72,12 @@ public class DemoApplication {
 
 ### JPA & @Entity
 
-- Connecting project with Database
+- Preparing project to connect it with Database
 
 ### JPA in action
+
+- Connecting project with Database
+
+### JPA repository
+
+- 
