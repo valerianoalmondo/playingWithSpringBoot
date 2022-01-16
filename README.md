@@ -56,4 +56,8 @@ public class DemoApplication {
 
 ### Business Layer
 
-- 
+- Adding Business (service) layer. Anterior design pattern.
+
+### Dependency injection
+
+-
