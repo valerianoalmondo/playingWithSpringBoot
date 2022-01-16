@@ -4,7 +4,7 @@
 
 ### Project Overview
 
-- Creating diagram to understand the picture of project in my mind.
+- Creating diagram to understand the picture of project in my mind: http://draw.io.
 
 - Choosing to create this project with Spring initializr to make it fast and simple as possible: https://start.spring.io.
 
@@ -27,5 +27,20 @@ A JDBC and R2DBC driver that allows Java programs to connect to a PostgreSQL dat
 
 ### Creating simple API
 
+@SpringBootApplication
+@RestController
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+	@GetMapping
+	public List<String> hello() {
+		return List.of("Hello", "Spring");
+	}
+}
+
+### Creating student class
 
 
