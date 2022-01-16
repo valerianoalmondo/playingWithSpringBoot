@@ -60,4 +60,8 @@ public class DemoApplication {
 
 ### Dependency injection
 
--
+- Split things into layers. API layer talk with Service layer & vice versa
+
+### Dependency injection
+
+- Properties file
