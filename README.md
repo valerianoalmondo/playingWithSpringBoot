@@ -9,6 +9,7 @@
 - Choosing to create this project with Spring initializr to make it fast and simple as possible: https://start.spring.io.
 
 Specifically:
+
 WEB
 - Spring Web (Build web, including ERSTful, applications using Spring MVC, Uses Apache Tomcat as the default embedded container).
 
