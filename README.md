@@ -6,7 +6,7 @@
 
 - Creating diagram to understand the whole picture of project in my mind: http://draw.io.
 
-<img> src=""
+<img> src="(https://user-images.githubusercontent.com/70283310/149668911-ecf5eeef-c3a8-4805-b61e-53ec906a1d1e.png)"
 
 - Choosing to create this project with Spring initializr to make it fast and simple as possible: https://start.spring.io.
 
