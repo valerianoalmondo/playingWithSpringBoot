@@ -4,7 +4,9 @@
 
 ### Project Overview
 
-- Creating diagram to understand the picture of project in my mind: http://draw.io.
+- Creating diagram to understand the whole picture of project in my mind: http://draw.io.
+
+<img> src=""
 
 - Choosing to create this project with Spring initializr to make it fast and simple as possible: https://start.spring.io.
 
