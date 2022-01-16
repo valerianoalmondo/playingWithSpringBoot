@@ -1,8 +1,6 @@
 # playintWithSpringBoot
 
-## Setting project
-
-### Project Overview
+## Project Overview
 
 - Creating diagram to understand the whole picture of project in my mind: http://draw.io.
 
@@ -19,6 +17,8 @@ SQL
 - Spring Data JPA (Persist data in SQL with Java Persistence API using Spring Data and Hybernate).
 - PostgreSQL Driver
 A JDBC and R2DBC driver that allows Java programs to connect to a PostgreSQL database using standard, database independent Java code.
+
+## Setting project
 
 ### Starting the server
 
@@ -62,6 +62,14 @@ public class DemoApplication {
 
 - Split things into layers. API layer talk with Service layer & vice versa
 
-### Dependency injection
+### Properties file
 
-- Properties file
+- Configurating connection to database
+
+### Creating & connecting to database
+
+- Creating a Postgres database called student
+
+### JPA & @Entity
+
+- 
