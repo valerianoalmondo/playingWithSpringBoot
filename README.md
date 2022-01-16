@@ -31,6 +31,7 @@ A JDBC and R2DBC driver that allows Java programs to connect to a PostgreSQL dat
 ### Creating simple API
 
 @SpringBootApplication
+
 @RestController
 public class DemoApplication {
 
@@ -46,4 +47,15 @@ public class DemoApplication {
 
 ### Creating student class
 
-
+@GetMapping
+	public List<Student> hello() {
+		return List.of(
+				new Student(
+						1L,
+						"Adam",
+						"adam.larysz@gamil.com",
+						LocalDate.of(2000, Month.JANUARY, 11),
+						32
+						)
+		);
+	}
