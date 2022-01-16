@@ -49,3 +49,11 @@ public class DemoApplication {
 
 - Creating package and class called Student
 - Creating list of Students in main class
+
+### Creating API Layer
+
+- Organize code for better understanding and overview
+
+### Business Layer
+
+- 
