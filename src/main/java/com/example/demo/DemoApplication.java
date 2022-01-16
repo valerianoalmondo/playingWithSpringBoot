@@ -14,20 +14,20 @@ import java.util.List;
 @RestController
 public class DemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
 
-	@GetMapping
-	public List<Student> hello() {
-		return List.of(
-				new Student(
-						1L,
-						"Adam",
-						"adam.larysz@gamil.com",
-						LocalDate.of(2000, Month.JANUARY, 11),
-						32
-						)
-		);
-	}
+    @GetMapping
+    public List<Student> hello() {
+        return List.of(
+                new Student(
+                        1L,
+                        "Adam",
+                        "adam.larysz@gamil.com",
+                        LocalDate.of(2000, Month.JANUARY, 11),
+                        32
+                )
+        );
+    }
 }

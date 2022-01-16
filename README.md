@@ -47,6 +47,7 @@ public class DemoApplication {
 
 ### Creating student class
 
+{
 @GetMapping
 	public List<Student> hello() {
 		return List.of(
@@ -59,3 +60,4 @@ public class DemoApplication {
 						)
 		);
 	}
+}
