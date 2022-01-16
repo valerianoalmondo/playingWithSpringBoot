@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-- Creating diagram to understand the whole picture of project in my mind: http://draw.io.
+- Creating diagram to understand the whole picture of the project in my mind: http://draw.io.
 
 <img src="https://user-images.githubusercontent.com/70283310/149668911-ecf5eeef-c3a8-4805-b61e-53ec906a1d1e.png">
 
@@ -84,5 +84,9 @@ public class DemoApplication {
 
 ### Saving students
 
-- 
+- Filling our repository with students
+
+### - Transient
+
+
 
