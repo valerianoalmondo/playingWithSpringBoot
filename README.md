@@ -51,13 +51,7 @@ public class DemoApplication {
 @GetMapping
 	public List<Student> hello() {
 		return List.of(
-				new Student(
-						1L,
-						"Adam",
-						"adam.larysz@gamil.com",
-						LocalDate.of(2000, Month.JANUARY, 11),
-						32
-						)
+				new Student()
 		);
 	}
 }
