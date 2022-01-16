@@ -72,4 +72,6 @@ public class DemoApplication {
 
 ### JPA & @Entity
 
-- 
+- Connecting project with Database
+
+### JPA in action
