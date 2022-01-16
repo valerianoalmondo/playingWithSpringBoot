@@ -47,11 +47,5 @@ public class DemoApplication {
 
 ### Creating student class
 
-{
-@GetMapping
-	public List<Student> hello() {
-		return List.of(
-				new Student()
-		);
-	}
-}
+- Creating package and class called Student
+- Creating list of Students in main class
